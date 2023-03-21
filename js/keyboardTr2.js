@@ -553,7 +553,7 @@ function Tr2MarginComplexity() {
 }
 
 function Tr2LifeError() {
-  if (Tr2MarginIt === 500) {
+  if (Tr2MarginIt === 440) {
     Tr2Life.innerHTML = --Tr2LifeIt;
 
     Tr2PlayingItem.remove();
