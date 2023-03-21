@@ -45,7 +45,7 @@ function mouseTrCreateImg() {
   let img = document.createElement("img");
 
   img.alt = "bug";
-  img.src = `/images/${mouseTrArrInsects[mouseTrRandomNumBeetle()]}.png`;
+  img.src = `images/${mouseTrArrInsects[mouseTrRandomNumBeetle()]}.png`;
 
   mouseTrCells[mouseTrRandomNumCell()].appendChild(img);
 }
