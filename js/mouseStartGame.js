@@ -64,7 +64,7 @@ function mouseTrRandomNumBeetle() {
 
 mouseTrGame.addEventListener("click", function mouseTrCatchFly(event) {
   let img = event.target.closest("img");
-  if (img.src == "http://127.0.0.1:5500/images/fly.png") {
+  if (img.src == "https://bahoking.github.io/All-trainer/images/fly.png") {
     img.remove();
     mouseTrCreateImg();
     mouseTrBeetlesСaught();
@@ -73,7 +73,7 @@ mouseTrGame.addEventListener("click", function mouseTrCatchFly(event) {
 
 mouseTrGame.addEventListener("dblclick", function mouseTrCatchMosquito(event) {
   let img = event.target.closest("img");
-  if (img.src == "http://127.0.0.1:5500/images/mosquito.png") {
+  if (img.src == "https://bahoking.github.io/All-trainer/images/mosquito.png") {
     img.remove();
     mouseTrCreateImg();
     mouseTrBeetlesСaught();
@@ -82,7 +82,7 @@ mouseTrGame.addEventListener("dblclick", function mouseTrCatchMosquito(event) {
 
 mouseTrGame.addEventListener("contextmenu", function mouseTrCatchBee(event) {
   let img = event.target.closest("img");
-  if (img.src == "http://127.0.0.1:5500/images/bee.png") {
+  if (img.src == "https://bahoking.github.io/All-trainer/images/bee.png") {
     img.remove();
     mouseTrCreateImg();
     mouseTrBeetlesСaught();
@@ -93,7 +93,7 @@ mouseTrGame.addEventListener(
   "dragend",
   function mouseTrCatchCaterpillar(event) {
     let img = event.target.closest("img");
-    if (img.src == "http://127.0.0.1:5500/images/caterpillar.png") {
+    if (img.src == "https://bahoking.github.io/All-trainer/images/caterpillar.png") {
       img.remove();
       mouseTrCreateImg();
       mouseTrBeetlesСaught();
