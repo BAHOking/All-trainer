@@ -1,0 +1,400 @@
+html {
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.no-select {
+    user-select: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    font-size: inherit;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: #fff;
+}
+
+.container {
+    margin: 10px auto;
+    max-width: 1250px;
+}
+
+.exit-main-menu__cat {
+    position: fixed;
+    width: 105px;
+    left: 6px;
+    bottom: 31px;
+    z-index: 9999;
+}
+
+.exit-main-menu__btn {
+    position: fixed;
+
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+
+    border: none;
+    border-radius: 5px;
+
+    transition: all 0.3s;
+
+    left: 10px;
+    bottom: 10px;
+    z-index: 59;
+}
+
+.exit-main-menu__btn:hover {
+    text-shadow: 4px 4px 5px yellow;
+    box-shadow: 0 0 15px yellow;
+}
+
+.main-menu {
+    width: 60%;
+    margin: 55px auto;
+}
+
+.main-menu__title {
+    margin: 0 auto 65px;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 5px yellow;
+}
+
+.btn {
+    display: block;
+    width: 50%;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+    border-radius: 12px;
+    font-size: 18px;
+
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    width: 55%;
+    border-radius: 12px;
+    font-size: 18px;
+    background-color: cornsilk;
+    text-shadow: 4px 4px 5px yellow;
+    border: 1px solid yellow;
+    box-shadow: 0 0 15px yellow;
+}
+
+.mouse-tr {
+    display: none;
+}
+
+.mouse-tr__main-menu {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mouse-tr__field-game--box {
+    display: none;
+    position: relative;
+    text-shadow: 2px 2px 5px yellow;
+}
+
+.mouse-tr__indicators {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.mouse-tr__taymer span {
+    color: aqua;
+}
+
+.mouse-tr__field-game {
+    width: 652px;
+    height: 630px;
+
+    margin: -30px auto;
+
+    background: url(../images/tree.png) 0 0 no-repeat;
+    background-size: 652px 652px;
+}
+
+.mouse-tr__game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding-top: 320px;
+}
+
+.mouse-tr__cell {
+    width: 150px;
+    height: 150px;
+}
+
+.mouse-tr__game-end--box {
+    display: none;
+    width: 40%;
+    margin: 60px auto;
+    padding: 10px;
+    line-height: 30px;
+
+    border: 5px solid yellow;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 0 0 15px yellow;
+    text-shadow: 2px 2px 5px yellow;
+}
+
+.mouse-tr__game-end--btn-restart,
+.keyboard-tr-2__end-btn {
+    margin-top: 25px;
+}
+
+.mouse-tr__explanation-box {
+    display: none;
+    padding-bottom: 10px;
+}
+
+.mouse-tr__explanation-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mouse-tr__explanation-left,
+.mouse-tr__explanation-right {
+    width: 40%;
+    margin: 20px auto;
+    padding: 15px;
+
+    border-radius: 15px;
+    text-shadow: 4px 4px 5px yellow;
+    border: 5px solid yellow;
+    box-shadow: 0 0 15px yellow;
+
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 18px;
+    background-color: black;
+}
+
+.mouse-tr__explanation-text-top {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+.mouse-tr__explanation-fly,
+.mouse-tr__explanation-mosquito,
+.mouse-tr__explanation-bee,
+.mouse-tr__explanation-caterpillar {
+    width: 25%;
+    height: 100%;
+    margin: auto;
+    margin-right: 50px;
+}
+
+.mouse-tr__explanation-text-top .mouse-tr__explanation-text {
+    margin: 17px auto;
+}
+
+.mouse-tr__explanation-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.mouse-tr__explanation-item .mouse-tr__explanation-text {
+    width: 90%;
+    line-height: 30px;
+}
+
+.mouse-tr__explanation-btn--ok {
+    margin-top: 7px;
+}
+
+.keyboard-tr-1 {
+    display: none;
+}
+
+.keyboard-tr-1__title,
+.mouse-tr__title,
+.keyboard-tr-2__title {
+    margin: 50px auto 50px;
+    font-size: 38px;
+    text-align: center;
+    text-shadow: 2px 2px 5px yellow;
+}
+
+.keyboard-tr-1__menu-btn {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.keyboard-tr-1__row1,
+.keyboard-tr-1__row2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.keyboard-tr-1__menu-trainer {
+    display: none;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.keyboard-tr-1__input {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto 10px;
+
+    font-size: 35px;
+    font-weight: 500;
+    background-color: #f0f0f0;
+    color: #000;
+    border: 1px solid yellow;
+    box-shadow: 0 0 10px yellow;
+}
+
+.keyboard-tr-1__text,
+.keyboard-tr-1__time {
+    width: 100%;
+    margin-left: auto;
+    text-align: end;
+    font-size: 18px;
+    text-shadow: 2px 2px 5px yellow;
+}
+
+.keyboard-tr-1__menu-end {
+    display: none;
+    width: 40%;
+    margin: 60px auto;
+    padding: 10px;
+    line-height: 30px;
+
+    text-align: center;
+    text-shadow: 2px 2px 5px yellow;
+    border: 5px solid yellow;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 0 0 15px yellow;
+}
+
+.keyboard-tr-1__menu-end--restart {
+    margin: 20px auto;
+}
+
+.keyboard-tr-2 {
+    display: none;
+    text-shadow: 2px 2px 5px yellow;
+}
+
+.keyboard-tr-2__btn-menu {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.keyboard-tr-2__game {
+    display: flex;
+}
+
+.keyboard-tr-2__indicators {
+    display: none;
+    width: 20%;
+    border-right: 2px solid yellow;
+}
+
+.keyboard-tr-2__playing-field {
+    display: none;
+    width: 80%;
+    height: 500px;
+    border-bottom: 2px solid yellow;
+
+    background: url(../images/dip.png) 0 0 no-repeat;
+    background-size: 100% 500px;
+}
+
+.playing__item {
+    width: 50px;
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 48px;
+    text-align: center;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.384);
+    border: 2px solid yellow;
+
+    transition: all 0.3s;
+}
+
+.keyboard-tr-2__end-menu {
+    display: none;
+    width: 40%;
+    margin: 60px auto;
+    padding: 10px;
+    line-height: 30px;
+
+    border: 5px solid yellow;
+    border-radius: 5px;
+    background-color: black;
+    text-shadow: 2px 2px 5px yellow;
+    box-shadow: 0 0 15px yellow;
+}
+
+@media (max-width: 1200px) {
+    .keyboard-tr-2__indicators {
+        font-size: 19.5px;
+    }
+}

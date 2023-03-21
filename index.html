@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All-trainer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="no-select" oncontextmenu="return false">
+    <img class="exit-main-menu__cat" src="../images/cat.png" alt="cat" />
+    <button class="exit-main-menu__btn">Головне меню</button>
+
+    <section class="main-menu container">
+      <h1 class="main-menu__title">Оберіть Тренажер!</h1>
+
+      <button class="btn main-menu__btn_1">Tренажер миші</button>
+      <button class="btn main-menu__btn_2">Tренажер клавіатури 1</button>
+      <button class="btn main-menu__btn_3">Tренажер клавіатури 2</button>
+    </section>
+
+    <section class="mouse-tr container">
+      <h2 class="mouse-tr__title">Спіймай всих комах!</h2>
+
+      <article class="mouse-tr__main-menu container">
+        <button class="btn mouse-tr__start-btn">Почати гру!</button>
+        <button class="btn mouse-tr__option-btn">Як грати в цю гру</button>
+      </article>
+
+      <article class="mouse-tr__field-game--box container">
+        <div class="mouse-tr__indicators">
+          <p class="mouse-tr__point-best">
+            Найкращий результат: <span>0</span>
+          </p>
+          <hr />
+          <p class="mouse-tr__point">Результат: <span>0</span></p>
+          <hr />
+          <p class="mouse-tr__taymer">Залишок часу: <span>30</span></p>
+        </div>
+
+        <div class="mouse-tr__field-game">
+          <div class="mouse-tr__game">
+            <div class="mouse-tr__column-1">
+              <div class="mouse-tr__cell"></div>
+              <div class="mouse-tr__cell"></div>
+            </div>
+
+            <div class="mouse-tr__column-2">
+              <div class="mouse-tr__cell"></div>
+              <div class="mouse-tr__cell"></div>
+            </div>
+
+            <div class="mouse-tr__column-3">
+              <div class="mouse-tr__cell"></div>
+              <div class="mouse-tr__cell"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="mouse-tr__game-end--box">
+        <p class="mouse-tr__game-end--point">Ваш результат: <span>0</span></p>
+        <p class="mouse-tr__game-end--best-point">
+          Ваш найкращий результат: <span>0</span>
+        </p>
+
+        <button class="btn mouse-tr__game-end--btn-restart">Спробую ще!</button>
+      </article>
+
+      <article class="mouse-tr__explanation-box container">
+        <div class="mouse-tr__explanation-items">
+          <div class="mouse-tr__explanation-left">
+            <div class="mouse-tr__explanation-text-top">
+              <p class="mouse-tr__explanation-text">
+                Your task is to catch insects with a computer mouse in the
+                shortest possible time.
+              </p>
+              <p class="mouse-tr__explanation-text">
+                Each insect has a different approach:
+              </p>
+            </div>
+
+            <div class="mouse-tr__explanation-item">
+              <img
+                class="mouse-tr__explanation-fly"
+                src="/images/fly.png"
+                alt="fly"
+              />
+              <p class="mouse-tr__explanation-text">
+                - Fly (you need to click on it with the "left mouse button")
+              </p>
+            </div>
+
+            <div class="mouse-tr__explanation-item">
+              <img
+                class="mouse-tr__explanation-mosquito"
+                src="/images/mosquito.png"
+                alt="mosquito"
+              />
+              <p class="mouse-tr__explanation-text">
+                - Mosquito (you need to click on it twice with the "left mouse
+                button")
+              </p>
+            </div>
+
+            <div class="mouse-tr__explanation-item">
+              <img
+                class="mouse-tr__explanation-caterpillar"
+                src="/images/caterpillar.png"
+                alt="caterpillar"
+              />
+              <p class="mouse-tr__explanation-text">
+                - Caterpillar (you need to drag it from the cage to another
+                second place with the "left mouse button")
+              </p>
+            </div>
+
+            <div class="mouse-tr__explanation-item">
+              <img
+                class="mouse-tr__explanation-bee"
+                src="/images/bee.png"
+                alt="bee"
+              />
+              <p class="mouse-tr__explanation-text">
+                - Bumblebee (you need to click on it with the "right mouse
+                button")
+              </p>
+            </div>
+          </div>
+
+          <div class="mouse-tr__explanation-right">
+            <div class="mouse-tr__explanation-text-top">
+              <p class="mouse-tr__explanation-text">
+                Ваше завдання - зловити комах комп'ютерною мишкою за найкоротший
+                час.
+              </p>
+              <p class="mouse-tr__explanation-text">
+                До кожної комахи свій підхід:
+              </p>
+            </div>
+
+            <div class="mouse-tr__explanation-item">
+              <img
+                class="mouse-tr__explanation-fly"
+                src="/images/fly.png"
+                alt="fly"
+              />
+              <p class="mouse-tr__explanation-text">
+                - Муха (на ній потрібно клацнути "лівою кнопкою мишки")
+              </p>
+            </div>
+
+            <div class="mouse-tr__explanation-item">
+              <img
+                class="mouse-tr__explanation-mosquito"
+                src="/images/mosquito.png"
+                alt="mosquito"
+              />
+              <p class="mouse-tr__explanation-text">
+                - Комар (по ньому потрібно двічі клацнути "лівою кнопкою миші")
+              </p>
+            </div>
+
+            <div class="mouse-tr__explanation-item">
+              <img
+                class="mouse-tr__explanation-caterpillar"
+                src="/images/caterpillar.png"
+                alt="caterpillar"
+              />
+              <p class="mouse-tr__explanation-text">
+                - Гусениця (її потрібно перетягнути з клітки на інше друге місце
+                "лівою кнопкою миші")
+              </p>
+            </div>
+
+            <div class="mouse-tr__explanation-item">
+              <img
+                class="mouse-tr__explanation-bee"
+                src="/images/bee.png"
+                alt="bee"
+              />
+              <p class="mouse-tr__explanation-text">
+                - Джміль (на ньому потрібно клацнути "правою кнопкою миші")
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn mouse-tr__explanation-btn--ok">Я зрозумів</button>
+      </article>
+    </section>
+
+    <section class="keyboard-tr-1 container">
+      <h2 class="keyboard-tr-1__title">Оберіть свій рівень!</h2>
+
+      <article class="keyboard-tr-1__menu-btn container">
+        <div class="keyboard-tr-1__row1">
+          <button class="btn keyboard-tr-1__btn keyboard-tr-1__btn__1">
+            Рівень 1
+          </button>
+          <button class="btn keyboard-tr-1__btn keyboard-tr-1__btn__2">
+            Рівень 2
+          </button>
+          <button class="btn keyboard-tr-1__btn keyboard-tr-1__btn__3">
+            Рівень 3
+          </button>
+          <button class="btn keyboard-tr-1__btn keyboard-tr-1__btn__4">
+            Рівень 4
+          </button>
+        </div>
+        <div class="keyboard-tr-1__row2">
+          <button class="btn keyboard-tr-1__btn keyboard-tr-1__btn__1">
+            Рівень 5
+          </button>
+          <button class="btn keyboard-tr-1__btn keyboard-tr-1__btn__2">
+            Рівень 6
+          </button>
+          <button class="btn keyboard-tr-1__btn keyboard-tr-1__btn__3">
+            Рівень 7
+          </button>
+          <button class="btn keyboard-tr-1__btn keyboard-tr-1__btn__4">
+            Рівень 8
+          </button>
+        </div>
+      </article>
+
+      <article class="keyboard-tr-1__menu-trainer container">
+        <h3 class="keyboard-tr-1__title">Наберіть цей текст!</h3>
+        <input class="keyboard-tr-1__input" type="text" disabled />
+        <p class="keyboard-tr-1__text">Залишилося символів: <span></span></p>
+        <p class="keyboard-tr-1__time">Час: <span>0</span> c.</p>
+      </article>
+
+      <article class="keyboard-tr-1__menu-end container">
+        <p class="keyboard-tr-1__menu-end--time">Ваш час: <span></span></p>
+        <button class="btn keyboard-tr-1__menu-end--restart">
+          Спробую ще!
+        </button>
+      </article>
+    </section>
+
+    <section class="keyboard-tr-2 container">
+      <h2 class="keyboard-tr-2__title">Оберіть символи!</h2>
+
+      <article class="keyboard-tr-2__btn-menu">
+        <button class="btn keyboard-tr-2__btn keyboard-tr-2__btn-1">
+          Українські
+        </button>
+        <button class="btn keyboard-tr-2__btn keyboard-tr-2__btn-2">
+          English
+        </button>
+        <button class="btn keyboard-tr-2__btn keyboard-tr-2__btn-3">
+          Знаки та числа
+        </button>
+        <button class="btn keyboard-tr-2__btn keyboard-tr-2__btn-4">
+          Все разом
+        </button>
+      </article>
+
+      <article class="keyboard-tr-2__game">
+        <div class="keyboard-tr-2__indicators">
+          <p class="keyboard-tr-2__text">Кількість символів: <span>0</span></p>
+          <p class="keyboard-tr-2__complexity">Складність: <span>1</span></p>
+          <p class="keyboard-tr-2__life">Життя: <span>3</span>/3</p>
+        </div>
+
+        <div class="keyboard-tr-2__playing-field"></div>
+      </article>
+
+      <article class="keyboard-tr-2__end-menu">
+        <p>Ваш результат:</p>
+        <p class="keyboard-tr-2__end-text">
+          Кількість символів: <span>0</span>
+        </p>
+        <p class="keyboard-tr-2__end-complexity">Складність: <span>1</span></p>
+        <button class="btn keyboard-tr-2__end-btn">Спробую ще!</button>
+      </article>
+    </section>
+
+    <script src="js/mainMenu.js"></script>
+    <script src="js/mouseStartGame.js"></script>
+    <script src="js/mouseOption.js"></script>
+    <script src="js/keyboardTr1.js"></script>
+    <script src="js/keyboardTr2.js"></script>
+  </body>
+</html>
